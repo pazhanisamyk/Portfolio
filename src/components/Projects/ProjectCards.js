@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { BsEye } from "react-icons/bs";
+import { BsEye, BsGithub } from "react-icons/bs";
 import { Modal } from "react-bootstrap";
 import datahub_logo from "../../Assets/Projects/datahub_logo.jpg";
 import Spryntz_logo from "../../Assets/Projects/Spryntz_logo.jpg";
@@ -56,6 +56,17 @@ function ProjectCards(props) {
               style={{ marginLeft: "10px" }}
             >
               <CgWebsite /> &nbsp; {"Go to WebSite"}
+            </Button>
+          )}
+          
+          {props.Github && (
+            <Button
+              variant="primary"
+              href={props.GithubLink}
+              target="_blank"
+              style={{ marginLeft: "10px" }}
+            >
+              <BsGithub /> &nbsp; {"Github"}
             </Button>
           )}
         </Card.Body>
