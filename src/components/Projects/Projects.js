@@ -60,7 +60,8 @@ function Projects() {
             <ProjectCard
               imgPath={spryntz}
               Github={false}
-              isLive={false}
+              isLive={true}
+              Link={"https://play.google.com/store/apps/details?id=com.order.spryntz&pli=1"}
               title="Sprytz ( Order Mobile App )"
               description="Worked on Sprytz mobile oder application, The project contains three login system ( Onboarding, user and restaurant ) in a single application, seprate there screens with there login credentials, users will order there foods and dishes and also view the past orders, faq, and track the delivery partner with map."
             />
@@ -70,7 +71,8 @@ function Projects() {
             <ProjectCard
               imgPath={spryntz}
               Github={false}
-              isLive={false}
+              isLive={true}
+              Link={"https://play.google.com/store/apps/details?id=com.order.spryntz&pli=1"}
               title="Sprytz ( Dispatcher Mobile App )"
               description="worked on Sprytz mobile dispatcher application, In this application delivery partner accept the order after the restaurant accept the order from the user then the restaurant assigned the task or order to the delivery partner. Then the delivery partner recive the foods from restaurant and deliver the foods to user with the help of map."
             />
@@ -80,7 +82,8 @@ function Projects() {
             <ProjectCard
               imgPath={datahub}
               Github={false}
-              isLive={false}
+              isLive={true}
+              Link={"https://datahub.ae/"}
               title="Datahub"
               description="Worked on the datahub mobile application, it used to collect the user data (Survey collecting application) with multiple conditional rendering. The components and also render the components showing and hiding by other components value, Rendering the complete UI with backend data like height, width, color, language, ltr and rtl concepts."
             />

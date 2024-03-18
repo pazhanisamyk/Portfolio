@@ -59,7 +59,7 @@ function ProjectCards(props) {
             </Button>
           )}
           
-          {props.Github && (
+          {props.Github && props.GithubLink && (
             <Button
               variant="primary"
               href={props.GithubLink}
