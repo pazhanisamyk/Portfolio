@@ -51,17 +51,19 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-          <NavItem to="/" icon={<AiOutlineHome />} text="Home" />
-            <NavItem to="/about" icon={<AiOutlineUser />} text="About" />
+          <NavItem to="/" icon={<AiOutlineHome />} text="Home" onClick={() => updateExpanded(false)} />
+            <NavItem to="/about" icon={<AiOutlineUser />} text="About" onClick={() => updateExpanded(false)} />
             <NavItem
               to="/project"
               icon={<AiOutlineFundProjectionScreen />}
               text="Projects"
+              onClick={() => updateExpanded(false)}
             />
             <NavItem
               to="/resume"
               icon={<CgFileDocument />}
               text="Resume"
+              onClick={() => updateExpanded(false)}
             />
             <Nav.Item className="fork-btn">
               <Button
@@ -80,10 +82,10 @@ function NavBar() {
   );
 }
 
-function NavItem({ to, icon, text }) {
+function NavItem({ to, icon, text, onClick }) {
   return (
     <Nav.Item>
-      <Nav.Link as={Link} to={to}>
+      <Nav.Link as={Link} to={to} onClick={onClick}>
         {icon} {text}
       </Nav.Link>
     </Nav.Item>
