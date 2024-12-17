@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { ImPointRight } from "react-icons/im";
 
 const AboutCard = () => (
   <Card className="quote-card-view">

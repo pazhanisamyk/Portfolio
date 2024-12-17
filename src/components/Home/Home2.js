@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/about.png";
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiFillSkype,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
