@@ -7,23 +7,23 @@ const AboutCard = () => (
     <Card.Body>
       <blockquote className="blockquote mb-0">
         <p style={{ textAlign: "justify" }}>
-          Hi Everyone, I am <span className="purple">Pazhanisamy K</span> from{" "}
+        Hi, I'm <span className="purple">Pazhanisamy K</span> from &nbsp;
           <span className="purple">Panruti, TamilNadu, India.</span>
           <br />
-          I am currently employed as a software developer at RedBlox Technologies Pvt. Ltd, Pondicherry.
           <br />
-          I have completed Master of Science in Computer Science (MSc-CS).
+          I am currently working as a <span className="purple">Full Stack Developer</span> at <span className="purple"> Agile SoftLabs Pvt. Ltd, Pondicherry </span>.
           <br />
           <br />
-          Apart from coding, some other activities that I love to do!
+          I hold a <span className="purple">Master of Science in Computer Science &nbsp;</span> 
+          (M.Sc-CS)
+          <br />
+          <br />
+           I have over 2+ years of experience specializing in front-end development in 
+          <span className="purple"> Redblox Technologies Pvt. Ltd, Pondicherry </span>.
+          <br />
+          <br />
+          Besides coding, I enjoy <span className="purple">gaming, farming, and traveling</span> in my free time!
         </p>
-        <ul>
-          {["Playing Games", "Farming", "Travelling"].map((activity, index) => (
-            <li key={index} className="about-activity">
-              <ImPointRight /> {activity}
-            </li>
-          ))}
-        </ul>
       </blockquote>
     </Card.Body>
   </Card>

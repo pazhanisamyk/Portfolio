@@ -44,7 +44,6 @@ function ResumeNew() {
       <Particle />
       {renderDownloadButton()}
       {renderResumePage(1)}
-      {renderResumePage(2)}
       {renderDownloadButton()}
     </Container>
   );

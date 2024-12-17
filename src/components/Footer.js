@@ -15,17 +15,17 @@ function Footer() {
     { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/pazhani-samy-15a977178" },
     { icon: <AiOutlineSkype />, url: "https://join.skype.com/invite/xdeXS5TW0OQE" },
     { icon: <FaWhatsapp />, url: "https://api.whatsapp.com/send/?phone=6374657369&text=Hi Pazhanisamy&type=phone_number&app_absent=0" },
-    { icon: <AiFillInstagram />, url: "https://instagram.com/mr_panruti_paiyan?igshid=MzNINGNkZWQ4Mg==" },
+    // { icon: <AiFillInstagram />, url: "https://instagram.com/mr_panruti_paiyan?igshid=MzNINGNkZWQ4Mg==" },
   ];
 
   return (
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Pazhanisamy K</h3>
+          <h3>Designed and Developed by <span className="purple">Pazhanisamy K</span></h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Pazhanisamy K</h3>
+          <h3>Copyright © {year} <span className="purple">Pazhanisamy K</span></h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

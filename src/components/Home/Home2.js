@@ -17,21 +17,27 @@ const Home2 = () => (
             LET ME <span className="purple"> INTRODUCE </span> MYSELF
           </h1>
           <p className="home-about-body">
-            I fell in love with programming and I have at least learnt
-            something, I think… 🤷‍♂️
+          I fell in love with programming, and every project I take on 
+          <i>
+              <b className="purple"> strengthens my skills and fuels my passion.</b>
+            </i>
             <br />
-            <br />I am fluent in classics like
+            <br />I am fluent in core technologies like
             <i>
-              <b className="purple"> Javascript. </b>
+              <b className="purple"> Javascript &nbsp;</b>
+            </i>
+             and have expertise in building
+            <i>
+              <b className="purple"> efficient and scalable applications. </b>
             </i>
             <br />
             <br />
-            My field of Interest's are building new &nbsp;
+            My fields of interest include building innovative &nbsp;
             <i>
-              <b className="purple">Web Applications and Mobile Applications </b> and
-              also in areas related to{" "}
+              <b className="purple">Web Applications and Mobile Applications. </b> 
+              I am also passionate about &nbsp;
               <b className="purple">
-                Editing.
+              video editing and creative content development.
               </b>
             </i>
             <br />
@@ -40,13 +46,17 @@ const Home2 = () => (
             with <b className="purple">Node.js</b> and
             <i>
               <b className="purple">
-                {" "}
-                Modern Javascript Library and Frameworks
+                &nbsp;
+                Modern Javascript Library and Frameworks,
               </b>
             </i>
-            &nbsp; like
+            &nbsp; including
             <i>
-              <b className="purple"> React.js and Next.js</b>
+              <b className="purple"> React.js, React Native and Next.js,</b>
+            </i>
+            &nbsp; which I leverage to build &nbsp;
+            <i>
+              <b className="purple"> dynamic and user-friendly interfaces.</b>
             </i>
           </p>
         </Col>
@@ -66,7 +76,7 @@ const Home2 = () => (
               { href: "https://www.linkedin.com/in/pazhani-samy-15a977178", Icon: FaLinkedinIn },
               { href: "https://join.skype.com/invite/xdeXS5TW0OQE", Icon: AiFillSkype },
               { href: "https://api.whatsapp.com/send/?phone=6374657369&text=Hi Pazhanisamy&type=phone_number&app_absent=0", Icon: FaWhatsapp },
-              { href: "https://instagram.com/mr_panruti_paiyan?igshid=MzNINGNkZWQ4Mg==", Icon: AiFillInstagram },
+              // { href: "https://instagram.com/mr_panruti_paiyan?igshid=MzNINGNkZWQ4Mg==", Icon: AiFillInstagram },
             ].map(({ href, Icon }, index) => (
               <li key={index} className="social-icons">
                 <a

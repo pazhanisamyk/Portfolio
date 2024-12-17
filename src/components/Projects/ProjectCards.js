@@ -7,9 +7,7 @@ import { Modal } from "react-bootstrap";
 
 import datahubLogo from "../../Assets/Projects/datahub_logo.jpg";
 import spryntzLogo from "../../Assets/Projects/Spryntz_logo.jpg";
-import musicLogo from "../../Assets/Projects/music_logo.png";
-import ornatLogo from "../../Assets/Projects/ornat_logo.jpeg";
-import ettLogo from "../../Assets/Projects/ett_logo.png";
+import vcblogo from "../../Assets/Projects/vcblogo.jpeg";
 
 function ProjectCards(props) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -17,17 +15,12 @@ function ProjectCards(props) {
 
   const formatImage = (title) => {
     switch (title) {
-      case "Sprytz ( Order Mobile App )":
-      case "Sprytz ( Dispatcher Mobile App )":
+      case "Sprytz":
         return spryntzLogo;
       case "Datahub":
         return datahubLogo;
-      case "P.S Music":
-        return musicLogo;
-      case "ORNAT (Native Organics)":
-        return ornatLogo;
-      case "ETT":
-        return ettLogo;
+      case "VCB":
+        return vcblogo;
       default:
         return props.imgPath;
     }

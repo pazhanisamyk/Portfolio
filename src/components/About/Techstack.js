@@ -6,17 +6,17 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiPhp,
   DiHtml5,
+  DiBootstrap,
 } from "react-icons/di";
+import { FaAngular } from "react-icons/fa";
 import {
-  SiRedis,
   SiNextdotjs,
   SiPostgresql,
-  SiFlutter,
   SiExpress,
-  SiNestjs,
   SiCss3,
+  SiTailwindcss,
+  SiDocker,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 
@@ -29,15 +29,15 @@ const Techstack = () => (
       TbBrandReactNative,
       DiNodejs,
       SiNextdotjs,
-      SiNestjs,
       DiHtml5,
       SiCss3,
       DiJavascript1,
       DiGit,
-      SiFlutter,
-      DiPhp,
+      FaAngular,
       SiPostgresql,
-      SiRedis,
+      SiTailwindcss,
+      DiBootstrap,
+      SiDocker
     ].map((Icon, index) => (
       <Col key={index} xs={4} md={2} className="tech-icons">
         <Icon />
