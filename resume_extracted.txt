@@ -1,0 +1,86 @@
+=== PAGE 1 ===
+ 
+Pazhanisamy  K  
+Full  Stack  Developer  
+Panruti,
+ 
+Tamil
+ 
+Nadu
+ 
+6374657369
+ 
+pazhanisamy3434@gmail.com
+ 
+www.linkedin.com/in/pazhanik
+ 
+https://devpazhani.netlify.app/
+ 
+PROFESSIONAL
+ 
+SUMMARY
+ 
+Experienced  Full  Stack  Developer  with  4+  years  of  expertise  in  building  dynamic  web  and  mobile  applications.  Skilled  in  React,  React  Native,  Node.js,  and  Express.js,  with  strong  proﬁciency  in  MongoDB,  MySQL,  and  RESTful  APIs.  Passionate  about  delivering  responsive,  scalable,  and  user-centric  solutions.  
+EXPERIENCE
+ 
+Agile  Softlabs  Pvt  Ltd  –  Pondicherry  Full  Stack  Developer  |  December  2024  –  Present
+ 
+Redblox  Technologies  Pvt  Ltd  –  Pondicherry  Software  Developer  |  July  2022  –  November  2024
+ 
+PROJECTS
+ 
+Spryntz
+ 
+(React
+ 
+Native)
+  spryntz.com
+ 
+●  Spryntz  is  a  comprehensive  food  delivery  platform  designed  for  both  mobile  and  web  users.  The  application  enables  customers  to  explore  nearby  restaurants,  browse  menus,  place  orders,  and  track  deliveries  in  real  time.  It  also  includes  features  such  as  user  authentication,  location-based  restaurant  suggestions,  payment  gateway  integration,  and  push  notiﬁcations  for  order  updates.  
+My
+ 
+Bhima
+ 
+(Next.js)
+  mybhima.com
+ 
+●
+ 
+An  e-commerce  platform  that  allows  customers  to  explore  and  purchase  jewellery  online  and  conveniently  join  jewellery  schemes  from  home.
+ 
+Swypatune
+ 
+(Ionic,
+ 
+Angular)
+  myswypatune.com
+ ●  Swypatune  is  a  gamiﬁed  music  streaming  platform  where  users  swipe  through  music  videos  and  vote  in  contests.  Responsive  UI/UX  for  pages  using  Ionic  and  Angular,  Built  custom  swipe  gestures  for  video  playback  and  voting  features.  Implemented  SEO  for  music  content,  Proﬁle  connections  and  matches,  and  optimized  the  video  performance.
+ 
+TECHNICAL
+ 
+SKILLS
+ 
+●  React  Js   ●  React  Native  ●  Javascript  ●  HTML  &  CSS  ●  Node  Js  ●  Express  Js  ●  MongoDB  ●  Typescript  ●  Angular  &  Ionic  
+DEVELOPMENT
+ 
+TOOLS
+ 
+●  VS  Code  ●  Git  &  GitHub  ●  Jira  ●  Postman  ●  Figma  
+CERTIFICATES
+ 
+ 
+MERN  Stack  Development                  -  Great  Learning  (2024)  
+MEAN  Stack  Development                  -  Great  Learning  (2024)  
+Flutter  Internship  completion                 -  Scode  Software  Solutions  (2022)  
+EDUCATION
+ 
+M.Sc.   Computer  Science   |  2020  -  2022  
+
+=== PAGE 2 ===
+ 
+ 
+ 
+ 
+ 
+ 
+
